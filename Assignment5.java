@@ -14,7 +14,7 @@ import java.io.*;
 import java.util.*;
 public class Assignment5 {
  
-`  static class ReviewEntry{
+  static class ReviewEntry{
         private int sentenceID; //sentence id or index
         private double totalScore; //score divided by pharses
         private int phrases; //phrase private variable

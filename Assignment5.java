@@ -14,11 +14,11 @@ import java.io.*;
 import java.util.*;
 public class Assignment5 {
  
-static class ReviewEntry{
+`  static class ReviewEntry{
         private int sentenceID; //sentence id or index
         private double totalScore; //score divided by pharses
         private int phrases; //phrase private variable
-public  ReviewEntry(){ //default constructor
+    public ReviewEntry(){ //default constructor
       }
         public void setSentenceID(int sent){ //setter for ID
             this.sentenceID = sent;     
@@ -133,7 +133,7 @@ public  ReviewEntry(){ //default constructor
                    System.out.println("The review is neutral");
                }
                else if(choiceScore > 3){
-                    System.out.println("The review is oositive");
+                    System.out.println("The review is positive");
                }
               return;
               
